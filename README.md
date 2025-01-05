@@ -1,3 +1,9 @@
+NOTE:
+
+include/gcp/service_account.json
+Add your service account key json !!!
+
+
 Overview
 ========
 
