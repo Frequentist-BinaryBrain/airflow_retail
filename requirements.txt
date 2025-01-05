@@ -1,0 +1,4 @@
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+#apache-airflow-providers-google==10.3.0 we wont use it here becuase it will be by default in cosmos
+astronomer-cosmos[dbt-bigquery] #install google + cosmos + dbt
+protobuf # we need env variable for protobuf so see in .env file

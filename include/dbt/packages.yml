@@ -1,0 +1,8 @@
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 1.1.1
+
+
+# packages.yml: Defines dependencies (third-party DBT packages).
+#dbt_project.yml: Configures the DBT project (model settings, paths, etc.).
+#profiles.yml: Contains database connection details for different environments.

@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: retail
+    database: airflow-446905 # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country # we still dont have country table, so lets preapre using using the data provided in notion url page and run the query in bigquery
+
+
+# The sources.yml file in the models/ directory is used to define external tables (or views) that your DBT project depends on. 
+# This file allows you to document, test, and manage the raw data you pull into your DBT models.
